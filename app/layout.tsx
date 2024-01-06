@@ -8,17 +8,17 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { PreloadResources } from './preload';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://glicny.xyz'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Cny',
+    template: '%s | Cny',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer and Hacker.',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: 'Cny',
+    description: 'Developer and Hacker.',
+    url: 'https://glicny.xyz',
+    siteName: 'Cny',
     locale: 'en_US',
     type: 'website',
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Cny',
     card: 'summary_large_image',
   },
   verification: {

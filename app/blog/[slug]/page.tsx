@@ -22,8 +22,8 @@ export async function generateMetadata({
     image,
   } = post.metadata;
   let ogImage = image
-    ? `https://leerob.io${image}`
-    : `https://leerob.io/og?title=${title}`;
+    ? `https://glicny.xyz${image}`
+    : `https://glicny.xyz/og?title=${title}`;
 
   return {
     title,
@@ -33,7 +33,7 @@ export async function generateMetadata({
       description,
       type: 'article',
       publishedTime,
-      url: `https://leerob.io/blog/${post.slug}`,
+      url: `https://glicny.xyz/blog/${post.slug}`,
       images: [
         {
           url: ogImage,
@@ -102,12 +102,12 @@ export default function Blog({ params }) {
             dateModified: post.metadata.publishedAt,
             description: post.metadata.summary,
             image: post.metadata.image
-              ? `https://leerob.io${post.metadata.image}`
-              : `https://leerob.io/og?title=${post.metadata.title}`,
-            url: `https://leerob.io/blog/${post.slug}`,
+              ? `https://glicny.xyz${post.metadata.image}`
+              : `https://glicny.xyz/og?title=${post.metadata.title}`,
+            url: `https://glicny.xyz/blog/${post.slug}`,
             author: {
               '@type': 'Person',
-              name: 'Lee Robinson',
+              name: 'Cny',
             },
           }),
         }}
